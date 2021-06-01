@@ -6,9 +6,11 @@ authors = ["HamzhSuilik <9hamzh@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pytest = "^6.2.4"
+nltk = "^3.6.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+
 black = {version = "^21.5b2", allow-prereleases = true}
 
 [build-system]
